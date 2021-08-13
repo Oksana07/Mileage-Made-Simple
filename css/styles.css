@@ -1,4 +1,159 @@
 body {
-font-family: 'Montserrat', sans-serif;
-font-family: 'STIX Two Text', serif;  
+font-family: Montserrat, sans-serif;
+font-family: STIX-Two-Text, serif;  
+font-style: normal;
+background: #F2F2F2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+ 
+}
+
+.main-container {
+width: 1920px;
+flex-direction: row-reverse;
+margin-left: 375px;
+ 
+}
+
+.navigation {
+     position: absolute;   
+}
+
+.menu {
+
+}
+
+.menu-item {
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+
+.hero {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 1920px
+height: 1279px
+
+}
+
+.hero-content {
+position: absolute;  
+    margin-top: 443px; 
+}
+
+.main-title {
+font-weight: 600;
+font-size: 90px;
+line-height: 100px;
+text-align: center;
+color: #FFFFFF;  
+}
+
+.main-title_slogan {
+font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #FFFFFF;  
+}
+
+.btn {
+width: 172px;
+height: 54px;
+background: linear-gradient(180deg, #050D1D 11.29%, rgba(5, 13, 29, 0) 90.3%);
+mix-blend-mode: normal;
+opacity: 0.6;
+background: #00A031;
+border-radius: 27px;
+cursor: pointer;
+margin-left: 874px;
+margin-right: 874px;
+margin-top: 54px;
+}
+
+.btn-text {
+font-family: Gilroy;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.1px;
+color: #F4FBF6;
+}
+
+.about {
+    display: flex;
+ 
+}
+
+.services-autotip {
+ width: 413px;
+ height: 624px;
+margin-top: 92px;
+padding-left: 432px;
+    padding-bottom: 192px;
+}
+
+.services-title {
+font-weight: 800;
+font-size: 38px;
+line-height: 51px;
+letter-spacing: 0.4px;
+color: #00A031;
+margin-bottom: 28px;
+}
+
+.services-paragraph {
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #6C6C6C;
+margin-bottom: 28px;
+}
+
+.services-text {
+margin-top: 92px;
+padding-left: 130px;
+}
+
+.services-item {
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #6C6C6C;
+}
+
+.path::after {
+background-image: url(../img/path.png);
+color: green;
+margin-left: 10px;
+}
+
+.services-btn {
+background-image: url(../img/button-copy.png);
+width: 208px;
+height: 54px;
+border: gainsboro;
+margin-top: 32px;
+cursor: pointer;
 }
