@@ -438,3 +438,16 @@ margin-left: 40px;
 margin-top: 54px;
 cursor: pointer;
 }
+
+.protected {
+  font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #777777;
+
+}
+
+.protected-c{
+margin-top: 54px;
+}
