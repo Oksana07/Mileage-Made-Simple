@@ -61,8 +61,9 @@ align-items: center;
 
 .menu-list {
   display: flex;
-
+cursor: pointer;
 }
+
 .menu-item {
 font-style: normal;
 font-weight: 600;
@@ -284,13 +285,10 @@ color: #00A031;
 }
 
 /* Mit Us */
-.group {
-
-}
-
 .group-us{
   display: flex;
   margin-left: 370px;
+  margin-bottom: 190px;
 }
 
 /* group-city */
@@ -319,18 +317,13 @@ margin-bottom: 57px;
 .city {
   margin-bottom: 40px;
   padding-right: 10px;
- 
+
 }
 
 .contact-icon-city {
 display: inline-flex;
 justify-content: center;
 align-items: center;
-
-}
-
-.box-city{
-
 }
 
 .city-title{
@@ -348,16 +341,11 @@ letter-spacing: 0.2px;
 color: #6C6C6C;
 }
 
-
-
-.group-map {
-
-}
-
 /* group-contact */
 .group-contact-box {
   margin-bottom: 21px;
 }
+
 .group-contact{
   position: absolute;
   margin-left: 850px;
@@ -410,4 +398,43 @@ letter-spacing: 0.199212px;
 color: #999999;
 }
 
+/* Footer */
 
+.footer{
+  background: #222222;
+  height: 344px;
+width: 1920px;
+padding-top: 120px;
+}
+
+.footer-container{
+  margin-left: 370px;
+  margin-right: 340px;
+  text-align: center;
+
+}
+ 
+.logo-footer{
+font-weight: bold;
+font-size: 46px;
+line-height: 32px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.menu-list{
+ margin-left: 370px;
+  margin-right: 340px;
+  text-align: center;
+}
+
+.menu-item-footer{
+ font-size: 16px;
+line-height: 16px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #777777;
+margin-left: 40px; 
+margin-top: 54px;
+cursor: pointer;
+}
