@@ -28,13 +28,41 @@ margin-right: 297px;
 }
 
 .navigation {
-     position: absolute;   
+position: absolute;
+display: flex;   
+align-items: center;
+margin-top: 27px;
+}
+
+.header-container {
+margin-left: 370px;
+margin-right: 297px;
+
+}
+
+.logo-header{
+cursor: pointer;
+align-items: center;
+}
+
+.logo-name {
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+color: #FFFFFF;
+padding-left: 12px;
+align-items: center;
 }
 
 .menu {
-
+padding-left: 490px;
+align-items: center;
 }
 
+.menu-list {
+  display: flex;
+
+}
 .menu-item {
 font-style: normal;
 font-weight: 600;
@@ -42,8 +70,11 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.2px;
 color: #FFFFFF;
+list-style: none;
   list-style: none;
-    list-style: none;
+  margin-left: 20px;
+
+ 
 }
 
 .hero {
