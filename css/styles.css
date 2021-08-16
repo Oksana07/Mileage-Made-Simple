@@ -78,13 +78,13 @@ list-style: none;
  
 }
 
+/* Hero */
 .hero {
 display: flex;
 flex-direction: column;
 align-items: center;
 width: 1920px
 height: 1279px
-
 }
 
 .hero-content {
@@ -371,6 +371,10 @@ line-height: 51px;
 letter-spacing: 0.398423px;
 color: #1C201E;
 margin-bottom: 8px;
+}
+
+.city-pr{
+  margin-left: 40px;
 }
 
 .group-contact-pr {
